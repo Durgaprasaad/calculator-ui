@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatar</title>
+    <style>
+         body{
+            /* background-color: aliceblue; */
+            position: relative;
+            /* background-image: linear-gradient(blue,green); */
+            background-image: radial-gradient(white 30%,orange);
+         }
+
+        .container{
+            border-radius: 10px;
+            height: 715px ;
+            width: 350px;
+            margin-left: 39vw;
+            border: 1px solid;
+            background-color: white;
+        }
+        .screen{
+            border: 1px solid black;
+            height: 300px;
+            width: 350px;
+            /* margin-left: 39vw; */
+            background-color: black;
+            border-radius: 10px;
+        }
+
+        .controls{
+            border: 1px  ;
+            height: px;
+            width: 350px;
+            /* margin-left: 39vw; */
+            background-color: white;
+        }
+
+        .total{
+            text-align: end;
+            margin-top: 180px;
+            margin-right: 18px;
+         }
+
+         .btn{
+            padding: 12px;
+            font-weight: 600;
+           
+         }
+
+         .buttons{
+            justify-content: space-evenly;
+            margin-top: 30px;
+         }
+
+        #btn1:hover {
+              background-color: skyblue;
+              border: 1px solid black;
+              box-shadow: 1px 1px grey;
+        }
+
+        #btn2:hover {
+              background-color: skyblue;
+              border: 1px solid black;
+              box-shadow: 1px 1px grey;
+        }
+
+        #btn3:hover {
+              background-color: skyblue;
+              border: 1px solid black;
+              box-shadow: 1px 1px grey;
+        }
+        #btn4:hover {
+              background-color: skyblue;
+              border: 1px solid black;
+              box-shadow: 1px 1px grey;
+        }
+        #btn5:hover {
+              background-color: skyblue;
+              border: 1px solid black;
+              box-shadow: 1px 1px grey;
+        }
+        #btn6:hover {
+              background-color: skyblue;
+              border: 1px solid black;
+              box-shadow: 1px 1px grey;
+        }
+        #btn7:hover {
+              background-color: skyblue;
+              border: 1px solid black;
+              box-shadow: 1px 1px grey;
+        }
+        #btn8:hover {
+              background-color: skyblue;
+              border: 1px solid black;
+              box-shadow: 1px 1px grey;
+        }
+        #btn9:hover {
+              background-color: skyblue;
+              border: 1px solid black;
+              box-shadow: 1px 1px grey;
+        }
+        #btn10:hover {
+              background-color: skyblue;
+              border: 1px solid black;
+              box-shadow: 1px 1px grey;
+        }
+        #btn11:hover {
+              background-color: skyblue;
+              border: 1px solid black;
+              box-shadow: 1px 1px grey;
+        }
+        #btn12:hover {
+              background-color: skyblue;
+              border: 1px solid black;
+              box-shadow: 1px 1px grey;
+        }
+        #btn13:hover {
+              background-color: skyblue;
+              border: 1px solid black;
+              box-shadow: 1px 1px grey;
+        }
+        #btn14:hover {
+              background-color: skyblue;
+              border: 1px solid black;
+              box-shadow: 1px 1px grey;
+        }
+        #btn15:hover {
+              background-color: skyblue;
+              border: 1px solid black;
+              box-shadow: 1px 1px grey;
+        }
+        #btn16:hover {
+              background-color: skyblue;
+              border: 1px solid black;
+              box-shadow: 1px 1px grey;
+        }
+        #btn17:hover {
+              background-image: linear-gradient(blue,red);
+              border: 1px solid black;
+              box-shadow: 1px 1px grey;
+        }
+        #btn18:hover {
+              background-color: skyblue;
+              border: 1px solid black;
+              box-shadow: 1px 1px grey;
+        }
+        #btn19:hover {
+              background-color: skyblue;
+              border: 1px solid black;
+              box-shadow: 1px 1px grey;
+        }
+        #btn20:hover {
+              background-color: skyblue;
+              border: 1px solid black;
+              box-shadow: 1px 1px grey;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="screen">
+          <div style="text-align: center; font-weight: 600; font-family: sans-serif; color: white;margin-top: 10px;">Calculatar</div>
+          <div class="total">
+            <div style="font-size: 22px; font-weight: 600; color: rgb(27, 36, 159); font-family: sans-serif;">25x18</div>
+            <div style="font-size: 28px; font-weight: 700;color: white; font-family: sans-serif;">= 450</div>
+            
+          </div>
+        </div>
+        <div class="controls">
+          <div style="display: flex;" class="buttons"> 
+            <button class="btn1" id="btn1" style="padding: 15px; border-radius: ; font-weight: 800;background-color: coral;border: 0.5px solid;">%</button>
+            <button class="btn" id="btn2" style="background-color: coral; border: 0.5px solid;">CE</button>
+            <button class="btn" id="btn3" style="background-color: coral; border: 0.5px solid;">AC</button>
+            <button class="btn" id="btn4" style="font-size: 22px; background-color: coral; border: 0.5px solid;">÷
+            </button>
+          </div>
+          <div class="buttons" style="display: flex;">
+            <button class="btn" style="padding: 15px;" id="btn5">7</button>
+            <button class="btn" style="padding: 15px;" id="btn6">8</button>
+            <button class="btn" style="padding: 15px;" id="btn7">9</button>
+            <button class="btn" style="font-weight: 700; font-size: 15px; background-color: coral; border: 0.5px solid;" id="btn8" >x</button>
+          </div>
+          <div class="buttons" style="display: flex;">
+            <button class="btn" style="padding: 15px;" id="btn9">4</button>
+            <button class="btn" style="padding: 15px;" id="btn10">5</button>
+            <button class="btn" style="padding: 15px;" id="btn11">6</button>
+            <button class="btn" style="font-weight: 700; font-size: 15px; background-color: coral; border: 0.5px solid ;" id="btn12">_</button>
+          </div>
+          <div class="buttons" style="display: flex;">
+            <button class="btn" style="padding: 15px;" id="btn13">3</button>
+            <button class="btn" style="padding: 15px;" id="btn14">2</button>
+            <button class="btn" style="padding: 15px;" id="btn15">1</button>
+            <button class="btn" style="font-weight: 700; font-size: 15px; background-color: coral; border: 0.5px solid;" id="btn16">+</button>
+          </div>
+          <div class="buttons" style="display: flex; margin-left: -15px; margin-top: px;">
+            <button class="btn" id="btn17" style="border-radius: 80px; padding: 20px;"> on/off</button>
+            <button class="btn" style="padding: 15px; margin-left: -15px;" id="btn18">0</button>
+            <button class="btn" style="padding: 15px; font-weight: 700;" id="btn19">.</button>
+            <button class="btn" style="padding: 15px; color: rgb(27, 36, 159); font-weight: 800; font-size: 15px; background-color: coral; border: 0.5px solid ;" id="btn20">=</button>
+          </div>
+        </div>
+        
+    </div>
+</body>
+</html>
